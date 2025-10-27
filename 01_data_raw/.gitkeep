@@ -1,0 +1,8 @@
+# This folder contains raw data files
+# Place your CSV files here:
+# - customers.csv
+# - brokers.csv
+# - properties.csv
+# - deals.csv
+# - transactions.csv
+# - property_features.csv
