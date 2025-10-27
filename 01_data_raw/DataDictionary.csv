@@ -1,0 +1,9 @@
+Info
+Project: Real Estate Data Curation & Analytics
+"Objective: Clean, integrate, and analyze multi-source real-estate data; build dashboards and predictive models."
+"Sheets: Customers, Brokers, Properties, PropertyDetails, Deals, DataDictionary"
+"Known Issues: Missing values, typos in city names, duplicated customers (intentional), invalid emails, irregular phones, odd notes_freeform values, invalid loan_rate (-1)."
+"Joins: Customers.customer_id->Deals, Brokers.broker_id->Deals, Properties.property_id->Deals & PropertyDetails."
+Transformations: standardize city names; split full_name; validate emails; normalize phones; price_per_sqft; one-hot encodings; amenity flags.
+Profiling: null ratios; cardinalities; outliers; deduping.
+"Modeling: regression for final_price, classification for status/price_band, association rules on amenities & property_type."
